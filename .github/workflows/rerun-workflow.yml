@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Re-run CI workflow
-        uses: reitermarkus/rerun-workflow@7381e98aa2bc4464acef4b60ade8d1d1d90e6e65
+        uses: reitermarkus/rerun-workflow@89b6d612733e2116cf83085372ed69fc1e529630
         with:
           token: ${{ secrets.HOMEBREW_GITHUB_PUBLIC_REPO_TOKEN }}
           once-label: ci-requeue
